@@ -1,0 +1,39 @@
+
+body{
+    /* background-image: url("../images/palmtwo.jpg"); */
+    font-family: 'times', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color:lightpink;
+   }
+   #container {
+       position: relative;
+   }
+   #header{
+     font-size: 100x;
+   }
+
+   #theButton {
+       color: white;
+       background-color: black;
+   }
+
+   h4 {
+    color: white;
+    size: 300px;
+   }
+
+  
+#animalsbuttons {
+    margin-left: 10px;
+    background-color: black;
+    color: white;
+}
+
+@media screen and (max-width: 480px) {
+    .movImage {
+        width: 500px;
+        height: 500px;
+    }
+    body {
+        background-color: salmon;
+    }
+}
